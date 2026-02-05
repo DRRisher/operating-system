@@ -1,0 +1,1 @@
+ps axo comm,pid,%mem | sort -k3 -rn | head -n 6
